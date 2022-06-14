@@ -16,8 +16,8 @@ class OracleDb {
   }
 
   public function getPdo() {
-		return $this->pdo;
-	}
+    return $this->pdo;
+  }
 
   public function open(){
     if($this->pdo) return;
