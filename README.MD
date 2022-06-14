@@ -2,6 +2,6 @@
 $db = new OracleDb();
 $db->open();
 
-$sql = "select * from zlp_th";
+$sql = "select * from test";
 $row = $db->getOne($sql);
 ```
